@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Napkin Radar</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanning">Scanning</string>
+    <string name="menu_standard">Menu standard</string>
+    <string name="menu_metric">Menu metric</string>
+
+</resources>
