@@ -161,7 +161,7 @@ public class Radar extends View {
 
     ArrayList<Location> buildLocations(Location referenceLocation) {
 
-        zoomDistance = 0;
+        zoomDistance = 1;
 
         ArrayList<Location> locations = new ArrayList<Location>();
 
@@ -319,13 +319,11 @@ public class Radar extends View {
     public int getMaxDistance() {
         if (maxDistance == 0) {
             return DEFAULT_MAX_DISTANCE;
-        }
-
-        if (maxDistance < 0) {
+        } else if (maxDistance < 0) {
             return 1000000000;
+        } else {
+            return maxDistance;
         }
-
-        return maxDistance;
     }
 
 
