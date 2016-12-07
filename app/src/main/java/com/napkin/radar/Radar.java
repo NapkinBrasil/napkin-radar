@@ -151,6 +151,8 @@ public class Radar extends View {
 
         if (metterDistance > maxDistance) {
             metterDistance = maxDistance;
+        } else if (metterDistance == 0){
+            metterDistance = 1;
         }
 
 
