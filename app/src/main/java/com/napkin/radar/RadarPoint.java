@@ -1,4 +1,4 @@
-package com.rflpazini.radar;
+package com.napkin.radar;
 
 /**
  * Created by Karam Ahkouk on 04/06/15.

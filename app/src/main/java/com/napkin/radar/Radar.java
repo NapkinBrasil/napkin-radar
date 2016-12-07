@@ -1,4 +1,4 @@
-package com.rflpazini.radar;
+package com.napkin.radar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,6 +11,8 @@ import android.location.Location;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.rflpazini.radar.R;
 
 import java.util.ArrayList;
 import java.util.Random;
