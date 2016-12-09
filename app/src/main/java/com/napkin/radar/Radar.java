@@ -151,10 +151,7 @@ public class Radar extends View {
 
         if (metterDistance > maxDistance) {
             metterDistance = maxDistance;
-        } else if (metterDistance == 0) {
-            metterDistance = 1;
         }
-
 
         drawPins(u0, locations, pxCanvas, metterDistance);
 
